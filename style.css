@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1117; /* Deep Black background (Batman/Github Dark) */
+    color: #c9d1d9; /* Light gray text */
+    scroll-behavior: smooth;
+}
+
+.header-shadow {
+    /* Subtle dark shadow for depth */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+/* UPDATED: Bold Lemon Greenish-Yellow Accent for high-tech contrast */
+.section-title {
+    color: #BFFF00; 
+}
+
+.card-bg {
+    background-color: #13161a; /* Darker card background for subtle layering */
+}
+
+.accent-color {
+    color: #BFFF00; /* Bold Lemon Greenish-Yellow Accent */
+}
+
+/* Custom utility to simplify responsiveness for text */
+.text-responsive {
+    font-size: clamp(1rem, 2vw, 1.125rem); /* Min 1rem, max 1.125rem */
+}
+
+/* Style for smooth scrolling links */
+a {
+    transition: color 0.2s;
+}
+
+/* UPDATED: Muted Chartreuse hover for interaction effect */
+a:hover {
+    color: #8CBF00; 
+}
+
+/* Ensure smooth scrolling on anchor links */
+.smooth-scroll {
+    cursor: pointer;
+}
